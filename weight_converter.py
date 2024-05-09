@@ -8,4 +8,4 @@ weight_kg = float(input("Please enter the weight in kilograms (kg):"))
 weight_pounds = weight_kg * 2.20462
 
 # Output the converted weight to the user
-print("The weight in pounds (lb) is:", weight_pounds)
+print(f"The weight of {weight_kg} kg is equavalent to {weight_pounds} pounds (lb).")
